@@ -6,4 +6,11 @@
 
 tree_height = input("How tall is the tree? ")
 tree_height = int(tree_height)
-while tree_height 
+spaces = tree_height - 1
+hashes = 1
+tree_stump = tree_height - 1
+while tree_height != 0:
+    print(" " * spaces + "#" * hashes)
+    spaces -= 1
+    hashes += 2
+    tree_height -= 1
