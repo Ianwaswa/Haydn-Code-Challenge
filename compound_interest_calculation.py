@@ -1,10 +1,11 @@
-# Have the users enter their investment amount and their expected interest.
-# Each year their investment will increase by their investment + their investment * the interest rate.
-# Print out their earnings after a 10 year period.
-investment = float(input("Enter your investment amount: "))
-expected_interest = float(input("Enter your expected interest: "))
-interest_rate = 1 + expected_interest
-for i in range(1, 11):
-    investment = investment * interest_rate
-    print(f"Year {i}: ${investment:.2f}")
-# Output:
+# Ask for the money and the interest rate
+# Convert the value to float and round it to 2 decimal places
+# Cycle through a period of 10 years using a for loop
+# Print the result
+money = input("How much do you want to invest? ")
+interest_rate = input("What is the interest rate? ")
+money = float(money)
+interest_rate = float(interest_rate) * .01
+for i in range(10):
+    money = money + (money * interest_rate)
+    print(round(money, 2))
