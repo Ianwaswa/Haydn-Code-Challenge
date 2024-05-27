@@ -1,2 +1,2 @@
 for i in range(2, 10):
-    print("i = ", i)
+    print(i)
