@@ -9,5 +9,5 @@ for i in range(tree_height):
     for j in range(tree_height-i):
         print(" ", end="")
     for k in range(2*i+1):
-        print("*", end="")
+        print("#", end="")
     print()
