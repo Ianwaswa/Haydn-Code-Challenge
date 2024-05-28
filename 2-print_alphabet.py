@@ -5,3 +5,4 @@
 # You are not allowed to import any module
 for i in range(97, 123):
     print(chr(i), end=" ")
+print()
