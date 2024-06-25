@@ -17,3 +17,5 @@ for  x in range(1, number_of_laps +1):
         time_of_slowest_lap = time_of_lap
     if time_of_lap < time_of_fastest_lap:
         time_of_fastest_lap = time_of_lap
+    average_time_of_laps = total_time_of_laps / number_of_laps
+    
