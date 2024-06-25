@@ -1,8 +1,8 @@
-successful = False
+successful = True
 for number in range(3):
-    print("Attempt", number + 1, (number + 1) * ".")
+    print("Attempt")
     if successful:
         print("Successful")
         break
 else:
-    print("Unsuccessful")
+    print("Attempted 3 times and failed")
