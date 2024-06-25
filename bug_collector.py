@@ -8,4 +8,4 @@ while day <= total_days:
     total_bugs = total_bugs + bugs
     day += 1
     
-    print("You caught a total of", total_bugs, "bugs.")
+print("You caught a total of", total_bugs, "bugs.")
