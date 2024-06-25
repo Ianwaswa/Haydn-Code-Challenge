@@ -1,2 +1,2 @@
-i = 2
-print((i % 2 == 0))
+for number in range(5):
+    print("Attempt", number)
