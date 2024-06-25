@@ -13,6 +13,7 @@ for  x in range(1, number_of_laps +1):
         time_of_fastest_lap = time_of_lap
         time_of_slowest_lap = time_of_lap
         check = False
+        total_time_of_laps += time_of_lap
     if time_of_lap > time_of_slowest_lap:
         time_of_slowest_lap = time_of_lap
     if time_of_lap < time_of_fastest_lap:
