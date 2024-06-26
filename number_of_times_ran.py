@@ -6,7 +6,7 @@ total_time_of_laps = 0
 average_time_of_laps = 0
 check = True
 
-for  x in range(1, number_of_laps +1):
+for x in range(1, number_of_laps +1):
     print("Lap ", x)
     time_of_lap = int(input("Enter the time of the lap in minutes: "))
     while check  ==  True:
